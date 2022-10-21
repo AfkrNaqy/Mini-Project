@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+class PageMenu extends StatefulWidget {
+  const PageMenu({Key? key}) : super(key: key);
 
   @override
-  State<HomePage> createState() => HomePageState();
+  State<PageMenu> createState() => PageMenuState();
 }
 
-class HomePageState extends State<HomePage> {
+class PageMenuState extends State<PageMenu> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
